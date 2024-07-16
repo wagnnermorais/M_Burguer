@@ -1,6 +1,6 @@
 import Carousel from "@/components/page/Carousel";
 import Hero from "@/components/page/Hero";
-import Menu from "@/components/page/Menu";
+import Menu from "@/components/page/menu/Menu";
 import Layout from "@/layout/Layout";
 import Image from "next/image";
 import { carousel } from "./api/db/Carousel";
