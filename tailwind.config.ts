@@ -10,9 +10,14 @@ const config: Config = {
     extend: {
       fontFamily: {
         Graphie: ["Graphie", "sans-serif"]
-      }
+      },
+      textShadow: {
+        'lg': '0 10px 15px rgba(0, 0, 0, 0.3)',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 };
 export default config;
