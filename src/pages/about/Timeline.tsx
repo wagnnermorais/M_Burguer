@@ -13,7 +13,7 @@ export default function Timeline() {
             }`}
           >
             <div
-              className={`w-full md:w-1/2 flex flex-col ${
+              className={`w-full md:w-1/2 flex flex-col shadow-lg ${
                 index % 2 === 0
                   ? "items-start text-left md:pr-8 pr-8"
                   : "items-end text-right md:pl-8 pl-8"
