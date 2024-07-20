@@ -36,16 +36,16 @@ export default function Carousel({
       </div>
       <div className="absolute inset-0 flex items-center justify-between">
         <button
-          className="mx-8 py-2 px-4 text-2xl rounded-full shadow opacity-80 ease duration-300 bg-white text-gray-800 hover:bg-zinc-600 hover:text-white"
+          className="mx-8 p-4 text-2xl shadow ease duration-300 bg-white text-gray-800 hover:bg-zinc-600 hover:text-white"
           onClick={previousSlide}
         >
-          &lt;
+          <p className="font-bold">&lt;</p>
         </button>
         <button
-          className="mx-8 py-2 px-4 text-2xl rounded-full shadow opacity-80 ease duration-300 bg-white text-gray-800 hover:bg-zinc-600 hover:text-white"
+          className="mx-8 p-4 text-2xl shadow ease duration-300 bg-white text-gray-800 hover:bg-zinc-600 hover:text-white"
           onClick={nextSlide}
         >
-          &gt;
+          <p className="font-bold">&gt;</p>
         </button>
       </div>
     </div>
