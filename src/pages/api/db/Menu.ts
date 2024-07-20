@@ -22,43 +22,49 @@ export const burguers = [
     id: 1,
     name: "Classic Cheeseburger",
     price: 28.99,
-    ingredients: ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Onion", "Pickles", "Ketchup", "Mustard"]
+    ingredients: ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Onion", "Pickles", "Ketchup", "Mustard"],
+    background: "/images/products/cheeseburguer.jpg"
   },
   {
     id: 2,
     name: "Bacon Delight",
     price: 30.99,
-    ingredients: ["Beef Patty", "Bacon", "Cheddar Cheese", "Lettuce", "Tomato", "Onion", "BBQ Sauce"]
+    ingredients: ["Beef Patty", "Bacon", "Cheddar Cheese", "Lettuce", "Tomato", "Onion", "BBQ Sauce"],
+    background: "/images/products/bacon_delight.jpg"
   },
   {
     id: 3,
     name: "Veggie Paradise",
     price: 29.49,
-    ingredients: ["Veggie Patty", "Lettuce", "Tomato", "Onion", "Pickles", "Avocado", "Vegan Mayo"]
+    ingredients: ["Veggie Patty", "Lettuce", "Tomato", "Onion", "Pickles", "Avocado", "Vegan Mayo"],
+    background: "/images/products/veggie_paradise.jpg"
   },
   {
     id: 4,
     name: "Spicy Jalapeño",
     price: 29.99,
-    ingredients: ["Beef Patty", "Pepper Jack Cheese", "Jalapeños", "Lettuce", "Tomato", "Chipotle Sauce"]
+    ingredients: ["Beef Patty", "Pepper Jack Cheese", "Jalapeños", "Lettuce", "Tomato", "Chipotle Sauce"],
+    background: "/images/products/spicy_jalapeno.jpg"
   },
   {
     id: 5,
     name: "Mushroom Swiss",
     price: 30.49,
-    ingredients: ["Beef Patty", "Swiss Cheese", "Mushrooms", "Lettuce", "Garlic Aioli"]
+    ingredients: ["Beef Patty", "Swiss Cheese", "Mushrooms", "Lettuce", "Garlic Aioli"],
+    background: "/images/products/mushroom_swiss.jpg"
   },
   {
     id: 6,
     name: "BBQ Bacon Burger",
     price: 31.99,
-    ingredients: ["Beef Patty", "Bacon", "Cheddar Cheese", "Onion Rings", "Lettuce", "BBQ Sauce"]
+    ingredients: ["Beef Patty", "Bacon", "Cheddar Cheese", "Onion Rings", "Lettuce", "BBQ Sauce"],
+    background: "/images/products/bbq_bacon_burguer.jpg"
   },
   {
     id: 7,
     name: "Avocado Ranch",
     price: 29.99,
-    ingredients: ["Chicken Patty", "Avocado", "Lettuce", "Tomato", "Onion", "Ranch Dressing"]
+    ingredients: ["Chicken Patty", "Avocado", "Cheese", "Lettuce", "Tomato", "Onion", "Ranch Dressing"]
   },
   {
     id: 8,
