@@ -6,9 +6,9 @@ export default function About() {
     <section className="flex flex-col min-h-screen font-Graphie bg-zinc-800 text-white">
       <Layout>
         <div className="my-12 mx-auto w-[80%] text-justify">
-          <div className="grid grid-cols-1 mb-12 md:grid-cols-2">
-            <div className="bg-[url('/images/about/kitchen.jpg')] bg-cover bg-center min-h-[65vh] rounded-l-md rounded-b-none" />
-            <div className="flex flex-col justify-center py-4 px-6 rounded-r-md rounded-b-none bg-white text-black">
+          <div className="grid grid-cols-1 mb-12 md:grid-cols-2 shadow-lg">
+            <div className="bg-[url('/images/about/kitchen.jpg')] bg-cover bg-center min-h-[65vh] rounded-tl-md" />
+            <div className="flex flex-col justify-center py-4 px-6 rounded-tr-md bg-white text-black">
               <h2 className="text-3xl font-bold mb-4">Our Story</h2>
               <p className="text-lg mb-4">
                 Marques Burguer started as a small family business, inspired by
@@ -30,8 +30,8 @@ export default function About() {
             </div>
           </div>
           <Timeline />
-          <div className="grid grid-cols-1 mb-12 md:grid-cols-2">
-            <div className="flex flex-col justify-center py-4 px-6 order-last rounded-l-md rounded-b-none md:order-first bg-white text-black">
+          <div className="grid grid-cols-1 mb-12 md:grid-cols-2 shadow-lg">
+            <div className="flex flex-col justify-center py-4 px-6 order-last rounded-tl-md md:order-first bg-white text-black">
               <h2 className="text-3xl font-bold mb-4">Our Future</h2>
               <p className="text-lg mb-2">
                 Looking ahead, we are excited to expand our menu with more
@@ -51,7 +51,7 @@ export default function About() {
                 everyone feels welcome and valued.
               </p>
             </div>
-            <div className="bg-[url('/images/about/burguer.jpg')] bg-cover bg-center min-h-[65vh] rounded-r-md rounded-b-none" />
+            <div className="bg-[url('/images/about/burguer.jpg')] bg-cover bg-center min-h-[65vh] rounded-tr-md shadow-lg rounded-b-none" />
           </div>
         </div>
       </Layout>
