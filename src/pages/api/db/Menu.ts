@@ -64,37 +64,43 @@ export const burguers = [
     id: 7,
     name: "Avocado Ranch",
     price: 29.99,
-    ingredients: ["Chicken Patty", "Avocado", "Cheese", "Lettuce", "Tomato", "Onion", "Ranch Dressing"]
+    ingredients: ["Chicken Patty", "Avocado", "Cheese", "Lettuce", "Tomato", "Onion", "Ranch Dressing"],
+    background: "/images/products/avocado_ranch.jpg"
   },
   {
     id: 8,
     name: "Blue Cheese Bliss",
     price: 30.49,
-    ingredients: ["Beef Patty", "Blue Cheese", "Lettuce", "Tomato", "Onion", "Blue Cheese Dressing"]
+    ingredients: ["Beef Patty", "Blue Cheese", "Lettuce", "Tomato", "Onion", "Blue Cheese Dressing"],
+    background: "/images/products/blue_cheese_bliss.jpg"
   },
   {
     id: 9,
     name: "Double Trouble",
     price: 32.99,
-    ingredients: ["Double Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Onion", "Pickles", "Special Sauce"]
+    ingredients: ["Double Beef Patty", "Cheddar Cheese", "Bacon", "Lettuce", "Tomato", "Onion", "Pickles", "Special Sauce"],
+    background: "/images/products/double_trouble.jpg"
   },
   {
     id: 10,
     name: "Hawaiian Delight",
     price: 30.99,
-    ingredients: ["Beef Patty", "Pineapple", "Ham", "Swiss Cheese", "Lettuce", "Teriyaki Sauce"]
+    ingredients: ["Beef Patty", "Pineapple", "Ham", "Swiss Cheese", "Lettuce", "Teriyaki Sauce"],
+    background: "/images/products/hawaiian_delight.jpg"
   },
   {
     id: 11,
-    name: "Buffalo Chicken",
-    price: 29.99,
-    ingredients: ["Chicken Patty", "Buffalo Sauce", "Lettuce", "Tomato", "Blue Cheese Dressing"]
+    name: "Cheddar Royale",
+    price: 32.99,
+    ingredients: ["Beef Patty", "Cheddar", "Onion", "Lettuce", "Tomato"],
+    background: "/images/products/cheddar_royale.jpg"
   },
   {
     id: 12,
     name: "Mediterranean Veggie",
     price: 29.49,
-    ingredients: ["Falafel Patty", "Lettuce", "Tomato", "Onion", "Cucumber", "Tzatziki Sauce"]
+    ingredients: ["Falafel Patty", "Lettuce", "Tomato", "Onion", "Cucumber", "Tzatziki Sauce"],
+    background: "/images/products/mediterranean_veggie.jpg"
   }
 ]
 
