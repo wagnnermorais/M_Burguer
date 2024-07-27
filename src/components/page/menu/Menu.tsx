@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { headings, burguers, sides, sauces, drinks } from "@/pages/api/db/Menu";
 import MenuHeaders from "./MenuHeaders";
+import Button from "../Button";
 
 export default function Menu() {
   const [activeMenu, setActiveMenu] = useState<string>("burguers");
@@ -64,10 +65,11 @@ export default function Menu() {
           ))}
         </div>
       </div>
-      <div className="flex items-center justify-center">
-        <button className="py-2 px-12 border ease-in-out duration-300 hover:bg-slate-600 absolute bottom-8">
-          Order
-        </button>
+      <div className="flex items-center justify-center my-4">
+        <Button
+          text="Order"
+          onClick={() => console.log("function not ready yet")}
+        />
       </div>
     </section>
   );

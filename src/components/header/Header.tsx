@@ -2,6 +2,7 @@ import Link from "next/link";
 import { navigation } from "../../pages/api/db/Navigation";
 import { CartIcon, SunIcon } from "../icons/Icons";
 import NavItem from "./NavItem";
+import Button from "../page/Button";
 
 export default function Header() {
   return (
@@ -23,9 +24,10 @@ export default function Header() {
             value={item.value} 
           />
         )}
-        <button className="py-2 px-8 border ease-in-out duration-300 hover:bg-slate-600">
-          Order
-        </button>
+        <Button
+          text="Order"
+          onClick={() => console.log("function not ready yet")}
+        />
       </menu>
       <div className="flex items-center gap-8">
         <div className="ease-in-out duration-300 cursor-pointer">
