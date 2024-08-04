@@ -16,12 +16,7 @@ export const navigation = [
   },
   {
     id: 4,
-    value: "Reviews",
-    link: "/reviews"
-  },
-  {
-    id: 5,
     value: "Contact",
-    link: "/"
+    link: "/contact"
   },
 ]
