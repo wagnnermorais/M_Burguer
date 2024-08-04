@@ -4,6 +4,7 @@ import Banner from "@/components/page/Banner";
 import Menu from "@/components/page/menu/Menu";
 import Image from "next/image";
 import { carousel } from "./api/db/Carousel";
+import ReviewCarousel from "@/components/page/review/ReviewCarousel";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         </Carousel>
         <Menu />
         <Banner />
+        <ReviewCarousel />
       </Layout>
     </main>
   );
