@@ -10,8 +10,12 @@ export default function Footer() {
         <p className="text-slate-300">&copy; 2024 Marque&apos;s burguer.</p>
       </div>
       <div className="flex items-center my-4 gap-4">
-        <div className="cursor-pointer ease duration-300">{LinkedinIcon}</div>
-        <div className="cursor-pointer ease duration-300">{GithubIcon}</div>
+        <div className="cursor-pointer ease duration-300">
+          <LinkedinIcon fill="white" />
+        </div>
+        <div className="cursor-pointer ease duration-300">
+          <GithubIcon fill="white" />
+        </div>
       </div>
     </footer>
   );
