@@ -1,20 +1,20 @@
 import { useState } from "react";
-import Link from "next/link";
 import { navigation } from "../../pages/api/db/Navigation";
 import { CartIcon, SunIcon } from "../icons/Icons";
+import Link from "next/link";
 import NavItem from "./NavItem";
 import Button from "../page/Button";
-import CartModal from "./CartModal"; // Importa o CartModal
+import CartModal from "./CartModal";
 
 export default function Header() {
-  const [isCartModalOpen, setIsCartModalOpen] = useState(false); // Estado para controlar a abertura do modal
+  const [isCartModalOpen, setIsCartModalOpen] = useState(false);
 
   const toggleCartModal = () => {
     setIsCartModalOpen(!isCartModalOpen);
   };
 
   return (
-    <header className="sticky top-0 left-0 right-0 w-full py-8 px-8 shadow-lg z-50 bg-zinc-800">
+    <header className="sticky top-0 left-0 right-0 w-full py-8 px-8 shadow-lg z-50 text-white bg-zinc-800">
       <div className="flex items-center justify-between mx-auto w-[80%]">
         <Link href={"/"}>
           <div className="flex gap-1">
