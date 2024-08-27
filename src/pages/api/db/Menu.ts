@@ -110,6 +110,7 @@ export const sides = [
     name: "French Fries",
     price: 2.99,
     ingredients: ["Potatoes", "Salt"],
+    background: "images/products/french_fries.jpg"
   },
   {
     id: 2,
@@ -161,6 +162,7 @@ export const sauces = [
     name: "Ketchup",
     price: 0.5,
     ingredients: ["Tomatoes", "Vinegar", "Sugar"],
+    background: "/images/products/ketchup.jpg"
   },
   {
     id: 2,
@@ -200,6 +202,7 @@ export const drinks = [
     name: "Coca-Cola",
     price: 1.99,
     ingredients: ["Carbonated water", "Sugar", "Caffeine"],
+    background: "/images/products/coca_cola.jpg"
   },
   {
     id: 2,
