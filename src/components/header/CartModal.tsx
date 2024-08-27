@@ -1,7 +1,8 @@
-import Button from "../page/Button";
-import { CartModalProps } from "@/types/CartModalProps";
-import { CloseIcon } from "../icons/Icons";
 import { useEffect, useState } from "react";
+import { CloseIcon } from "../icons/Icons";
+import { CartModalProps } from "@/types/CartModalProps";
+import Button from "../page/Button";
+import Link from "next/link";
 
 export default function CartModal({ item, quantity, onClick }: CartModalProps) {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,13 +57,15 @@ export default function CartModal({ item, quantity, onClick }: CartModalProps) {
           </p>
           <p className="text-black uppercase">2</p>
         </div>
-        <div className="flex justify-center my-4 bg-blue-300">
-          <Button
-            text="Go to cart"
-            width="full"
-            background="zinc-800"
-            onClick={() => console.log("test")}
-          />
+        <div className="flex justify-center my-4">
+          <Link href={"/cart"} className="w-full">
+            <Button
+              text="Go to cart"
+              width="full"
+              background="zinc-800"
+              onClick={() => console.log("test")}
+            />
+          </Link>
         </div>
       </div>
     </section>
